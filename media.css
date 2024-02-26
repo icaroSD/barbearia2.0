@@ -1,0 +1,27 @@
+@media (max-width:883px){
+    .titulo h1{
+        text-align: center;
+        
+    }
+}
+
+@media (max-width:742px){
+   .navegacao{
+    display: none;
+   }
+   header{
+    margin-bottom:100px;
+    
+    .fake{
+        position: relative;
+    }
+   }
+   main{
+    flex-direction: column;
+    gap: 15px;
+   
+   }
+   .logo{
+    text-align: right;
+}
+}

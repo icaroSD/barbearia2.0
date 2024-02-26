@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Anta&display=swap");
+* {
+  margin: 0 auto;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+body {
+  background: rgb(70, 67, 67);
+  color: white;
+  font-family: "Anta", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+  margin-bottom: 150px;
+  align-items: center;
+  max-width: 1450px;
+}
+
+.fake {
+  position: absolute;
+}
+
+.logo {
+  font-size: 3rem;
+  color: rgb(223, 56, 56);
+}
+
+a {
+  color: white;
+}
+
+.navegacao {
+  display: flex;
+  gap: 50px;
+}
+.navegacao a:hover {
+  color: rgb(223, 56, 56);
+}
+
+main {
+  max-width: 1450px;
+  display: flex;
+  margin-top: 3rem;
+  align-items: center;
+}
+main h1 {
+  color: rgb(223, 56, 56);
+  font-size: 3rem;
+}
+main .agendar {
+  background-color: rgb(223, 56, 56);
+  color: white;
+  border: none;
+  padding: 15px 40px;
+  border-radius: 10px;
+}
+main .button {
+  display: flex;
+  gap: 20px;
+}
+main .cortes {
+  background-color: rgb(70, 67, 67);
+  border: none;
+  padding: 15px 40px;
+  border-radius: 10px;
+  cursor: pointer;
+  border: 1px solid rgb(27, 26, 26);
+}
+
+.titulo {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.titulo p {
+  font-size: 1.5rem;
+}/*# sourceMappingURL=style.css.map */
