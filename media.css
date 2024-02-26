@@ -24,4 +24,15 @@
    .logo{
     text-align: right;
 }
+
+.cards{
+    display: flex;
+    flex-direction: column;
+}
+}
+
+@media (max-width:994px){
+    .cards{
+        grid-template-columns: 1fr 1fr;
+    }
 }
