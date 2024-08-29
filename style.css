@@ -85,14 +85,28 @@ main .cortes {
 }
 
 .cards {
-  margin-top: 100px;
+  margin: 100px 30px 30px 30px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 30px;
 }
 .cards .cortes {
   background: rgb(80, 72, 72);
-  width: 300px;
-  height: 300px;
+  width: 350px;
+  height: 280px;
   border-radius: 10px;
+  text-align: center;
+}
+.cards .cortes img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+footer {
+  max-width: 1450px;
+  display: flex;
+  background-color: rgb(80, 72, 72);
+  height: 40px;
+  text-align: center;
+  align-items: center;
 }/*# sourceMappingURL=style.css.map */
