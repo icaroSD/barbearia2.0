@@ -19,7 +19,7 @@ header {
   display: flex;
   justify-content: space-between;
   margin-top: 15px;
-  margin-bottom: 150px;
+  margin-bottom: 100px;
   align-items: center;
   max-width: 1450px;
 }
@@ -48,7 +48,7 @@ a {
 main {
   max-width: 1450px;
   display: flex;
-  margin-top: 3rem;
+  margin-bottom: 3rem;
   align-items: center;
 }
 main h1 {
@@ -85,22 +85,30 @@ main .cortes {
 }
 
 .cards {
-  margin: 100px 30px 30px 30px;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 30px;
+  display: flex;
+  flex-wrap: wrap;
 }
 .cards .cortes {
-  background: rgb(80, 72, 72);
+  background: rgb(112, 112, 112);
   width: 350px;
-  height: 280px;
+  height: 300px;
   border-radius: 10px;
   text-align: center;
+  ;
 }
 .cards .cortes img {
-  width: 100%;
+  width:350px;
+  height: 250px;
   border-radius: 10px;
+  
 }
+
+.cortes{
+  margin-bottom: 15px;
+  
+}
+
+
 
 footer {
   max-width: 1450px;
